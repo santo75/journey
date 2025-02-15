@@ -1,0 +1,11 @@
+.Time-header {
+    display: flex;
+    width: 165px;
+    height: 30px;
+}
+.Time {
+    height: 30px;
+    border: 2px solid rgb(13, 230, 67);
+    border-radius: 8px;
+    padding: 5px;
+}

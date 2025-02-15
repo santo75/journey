@@ -1,0 +1,65 @@
+.days, .journey-content-days, .journey-content-hours, .journey-content-minutes, .journey-content-seconds {
+    display: flex;
+}
+
+span {
+    color: rgb(230, 39, 172);
+}
+.journey {
+    width: 80%;
+    height: 100%;
+}
+
+.journey-header {
+    color: rgb(218, 190, 190);
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+.header-text {
+    border: 2px solid rgb(230, 39, 172);
+    border-width: 0 0 2px 0;
+    border-radius: 8px;
+    padding: 5px;
+    width: 20vw;
+    align-items: center;
+}
+.days-text {
+    margin: 0 0 20px 0;
+    padding: 0 0 5px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(94, 72, 72);
+    border: 2px solid rgb(230, 39, 172);
+    border-width: 0 0 2px 0;
+    border-radius: 8px;
+}
+.journey-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.hours, .days, .minutes, .seconds {
+    height: 100px;
+}
+.journey-content-days, .journey-content-hours, .journey-content-minutes, .journey-content-seconds {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 0;
+}
+.journey-content-hours, .journey-content-minutes, .journey-content-seconds {
+    border: 2px solid rgb(230, 39, 172);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.hours-text, .minutes-text, .seconds-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(94, 72, 72);
+    margin: 8px 0 -4px 0;
+    padding: 0;
+}
